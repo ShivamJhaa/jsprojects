@@ -1,0 +1,48 @@
+*{
+    font-family: Helvetica, sans-serif;
+    background-color: cornflowerblue;
+}
+h1{
+    color: aqua;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 80px;
+}
+.number{
+    text-align: center;
+}
+.num{
+    font-size: 15.3rem;
+    color: #fff;  
+}
+.mybtn{
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    width: 150px;
+    border: black solid 2px;
+    margin-top: 20px;
+    transition: background-color 0.5s;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+}
+.mybtn:hover,
+.mybtn:active{
+    color: #fff;
+    background-color: black;
+
+}
+.last{
+    display: flex;
+    
+}
+.btn{
+    margin: 0 auto;
+}
