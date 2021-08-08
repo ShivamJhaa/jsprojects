@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #aed0eb;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bgbtn{
+    background-color: #000;
+    height: 100px;
+    width: 500px;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.mybtn{
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    width: 150px;
+    border: black solid 2px;
+    margin-top: 20px;
+    transition: background-color 0.5s;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+}
+.mybtn:hover,
+.mybtn:active{
+    color: #fff;
+    background-color: black;
+
+}
