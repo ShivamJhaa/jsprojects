@@ -1,0 +1,116 @@
+*{
+    background-color: #c7e2f7;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.top{
+    text-align: center;
+    margin-top: 15vh;
+}
+h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+hr{
+    border: 3px solid rgb(68, 71, 201);
+    border-radius: 5px;
+    width: 80px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#review{
+    width:500px;
+    height:380px;
+    position:relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.4);
+}
+.img-container{
+    
+    background-color: #fff;
+    text-align: center;
+}
+#person-img{
+    margin-top: 15px;
+    height: 120px;
+    width: 120px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: solid 2px rgb(30, 165, 228);
+}
+#author{
+    letter-spacing: 3px;
+    padding: 3px;
+    text-align: center;
+    background-color: #fff;
+}
+#info{
+    text-align: center;
+    background-color: #fff;
+    color: grey;
+    font-weight: 200;
+    padding: 10px;
+    letter-spacing: 0.5px;
+}
+#job{
+    text-align: center;
+    color: rgb(30, 165, 228);
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 3px;
+    background-color: #fff;
+}
+.mybtn{
+    text-align: center;
+    background-color: #fff;
+}
+.arrows{
+    background-color: #fff;
+    padding: 8px;
+}
+.sign{
+    background-color: #fff;
+    padding-bottom: 10px; 
+}
+.btn1,
+.btn3{
+    color: rgb(30, 165, 228);
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 500;
+    background-color: #fff;
+    transition: background-color 0.2s;
+    border: 1px solid rgb(30, 165, 228);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -ms-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+}
+.btn1{
+    border: 0ch;
+    font-size: 110%;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
+}
+.btn1:hover,
+.btn1:active{
+    color: aqua;
+}
+.btn3:hover,
+.btn3:active{
+    background-color: rgb(30, 165, 228);
+    color: #fff;
+}
+
