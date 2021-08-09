@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    background: #aed0eb;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    background: #fff;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+#logo{
+    float: left;
+    font-size: 230%;
+    padding: 10px 0;
+    color: #89c3f3;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+nav a{
+    color: #89c3f3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
+}
+nav a:hover,
+nav a:active,
+#logo:active,
+#logo:hover{
+    color: #0e83e4;
+}
+nav a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0%;
+    background-color: #0e83e4;
+    transition: width 0.2s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: width 0.2s;
+    -moz-transition: width 0.2s;
+    -ms-transition: width 0.2s;
+    -o-transition: width 0.2s;
+}
+nav a:hover::after{
+    width: 100%;
+}
+.toggle-btn{
+    position: absolute;
+    top: 1.15rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-btn .bar{
+    height: 3px;
+    width: 100%;
+    background-color: #0e83e4;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+@media (max-width:600px){
+    .toggle-btn{
+        display: flex;
+    }
+    .nav-links{
+        display: none;
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-left:10px;
+    }
+    .nav-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav-links li{
+        margin-left:0.5px;
+        width: 100%;
+    }
+    .nav-links.active{
+        display:flex;
+    }
+}
