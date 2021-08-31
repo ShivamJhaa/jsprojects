@@ -137,9 +137,9 @@ nav a:hover::after{
 }
 #photo{
     background-color: #fff;
-    height: 70vh;
+    height: 100%;
     margin-top: 8%;
-    margin-left: 15%;
+    margin-left: 10%;
     box-shadow: 10px 10px 8px rgb(0 0 0 / 0.5);
     border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -153,7 +153,7 @@ nav a:hover::after{
     text-align: center;
 }
 #person-img{
-    margin-top: 15%;
+    margin-top: 12%;
     height: 150px;
     width: auto;
     background-color: #fff;
@@ -193,12 +193,11 @@ nav a:hover::after{
     color: #000;
     font-weight: 400;
     letter-spacing: 5px;
-    padding: 3px;
     background-color: #fff;
 }
 #btn{
     border: 0;
-    font-size: 120%;
+    font-size: 100%;
     background-color: #fff;
     padding-left: 8px;
 }
@@ -212,13 +211,14 @@ nav a:hover::after{
     font-size: 4.2rem;
     font-weight: 400;
     font-family: 'Anton';
-    letter-spacing: 5px;
+    letter-spacing: 8px;
 }
 .info h2{
     font-weight: 400;
 }
 .para{
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
+    font-size: 110%;
 
 }
 #btns{
@@ -267,7 +267,7 @@ nav a:hover::after{
     border: 2px solid blue;
 }
 #information{
-    margin-top: 22vh;
+    margin-top: 10%;
 }
 
 /*----------Qualification------*/
@@ -281,7 +281,7 @@ nav a:hover::after{
     height: 100%;
     width: 100%;
     align-items: center;
-    padding: 5%;
+    padding: 2%;
 }
 #box{
     background-color: #fff;
@@ -289,7 +289,7 @@ nav a:hover::after{
     height: 100%;
     text-align: center;
     padding: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 #details h2{
     color: #0e83e4;
@@ -352,7 +352,7 @@ nav a:hover::after{
 }
   
   /* Style the back side */
-  .flip-card-back {
+.flip-card-back {
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
@@ -369,4 +369,112 @@ nav a:hover::after{
     margin-left: 30px;
     margin-top: 20px;
 
+}
+#port-btn{
+    background-color: #fff;
+    color: grey;
+    border: 0;
+    margin-top: 2%;
+    margin-left: 8%;
+    font-weight: 500;
+}
+#port-btn:focus{
+    color: #0e83e4;
+    font-weight: 500;
+    background-color: rgb(233, 230, 230);
+}
+#projects{
+    height: 100%;
+    width: auto;
+    margin: 0;
+    margin-top: 2%;
+}
+#pro-img{
+    margin: 0;
+    height: 90%;
+    width: 90%;
+}
+.pro-con{
+    color: #fff;
+    background-color: #0e83e4;
+    height: 52%;
+    width: 90%;
+    font-weight: 200;
+    text-align: left;
+    padding: 10%;
+    margin-left: 5%;
+}
+/*----footer-----*/
+
+footer{
+    background-color: #89c3f3;
+    padding: 50px;
+    font-size: 80%;
+}
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+.social-links{
+    list-style: none;
+    float: right;
+}
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 0;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+     text-decoration: none;
+     border: 0;
+     color: #fff;
+     transition: color 0.2s;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 160%;
+}
+.fa-facebook-f,
+.fa-twitter,
+.fa-google-plus-g,
+.fa-instagram{
+    transition: color 0.2s;
+}
+.fa-facebook-f:hover{
+    color: #3b5998;
+}
+.fa-twitter:hover{
+    color: #00aced;
+}
+.fa-google-plus-g:hover{
+    color: rgb(110, 4, 4);
+}
+.fa-instagram:hover{
+    color: rgb(194, 6, 68);
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+.boxp{
+    height:100%;
+    width: 100%;
+    margin: 4%;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
