@@ -1,6 +1,6 @@
 body,html{
     margin: 0;
-    background: #aed0eb;
+    background: #FAF3E0;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
@@ -9,7 +9,7 @@ body,html{
     margin: 0 auto;
 }
 header{
-    background: #fff;
+    background: #EABF9F;
     box-shadow: 10px 10px 10px rgb(0 0 0 / 0.8);
 }
 header::after{
@@ -21,7 +21,7 @@ header::after{
     float: left;
     font-size: 230%;
     padding: 10px 0;
-    color: #89c3f3;
+    color: #000;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -44,7 +44,7 @@ nav li{
     position: relative;
 }
 nav a{
-    color: #89c3f3;
+    color: #000;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 400;
@@ -58,14 +58,14 @@ nav a:hover,
 nav a:active,
 #logo:active,
 #logo:hover{
-    color: #0e83e4;
+    color: #B68973;
 }
 nav a::after{
     content: '';
     display: block;
     height: 4px;
     width: 0%;
-    background-color: #0e83e4;
+    background-color: #B68973;
     transition: width 0.2s;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -93,7 +93,7 @@ nav a:hover::after{
 .toggle-btn .bar{
     height: 3px;
     width: 100%;
-    background-color: #0e83e4;
+    background-color: #B68973;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -129,14 +129,14 @@ nav a:hover::after{
 }
 /*--------Introduction-------*/
 .intro{
-    background-color: #aed0eb;
+    background-color: #FAF3E0;
     height: 100vh;
 }
 .row{
     text-align: center;
 }
 #photo{
-    background-color: #fff;
+    background-color: #EABF9F;
     height: 100%;
     margin-top: 8%;
     margin-left: 10%;
@@ -149,14 +149,14 @@ nav a:hover::after{
 }
 .img-container{
     
-    background-color: #fff;
+    background-color: #EABF9F;
     text-align: center;
 }
 #person-img{
     margin-top: 12%;
     height: 150px;
     width: auto;
-    background-color: #fff;
+    background-color: #EABF9F;
     border-radius: 50%;
     border: solid 2px #000;
 }
@@ -164,7 +164,7 @@ nav a:hover::after{
     text-align: center;
     font-family: 'Anton', sans-serif;
     font-family: 'Pacifico', cursive;
-    background-color: #fff;
+    background-color: #EABF9F;
     padding: 20px;
     
     color:#000;
@@ -174,7 +174,7 @@ nav a:hover::after{
     height: 2px;
     width: 20%;
     display: block;
-    background-color: #0e83e4;
+    background-color: #000;
     transition: width 0.2s;
     border-radius: 10px;
     margin: 0 auto;
@@ -193,12 +193,12 @@ nav a:hover::after{
     color: #000;
     font-weight: 400;
     letter-spacing: 5px;
-    background-color: #fff;
+    background-color: #EABF9F;
 }
 #btn{
     border: 0;
     font-size: 100%;
-    background-color: #fff;
+    background-color: #EABF9F;
     padding-left: 8px;
 }
 #information{
@@ -227,11 +227,11 @@ nav a:hover::after{
     padding-bottom: 30px;
 }
 #mybtn-dark{
-    background-color: blue;
+    background-color: #B68973;
     padding: 5px 25px;
     border-radius: 25px;
     color: #fff;
-    border:blue solid 2px;
+    border: #B68973 solid 2px;
     transition: background-color 0.2s, color 0.2s;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
@@ -262,9 +262,9 @@ nav a:hover::after{
 }
 #mybtn-lgt:hover,
 #mybtn-lgt:active{
-    background-color: blue;
+    background-color: #B68973;
     color: #fff;
-    border: 2px solid blue;
+    border: 2px solid #B68973;
 }
 #information{
     margin-top: 10%;
@@ -284,7 +284,7 @@ nav a:hover::after{
     padding: 2%;
 }
 #box{
-    background-color: #fff;
+    background-color: #FAF3E0;
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.295);
     height: 100%;
     text-align: center;
@@ -292,7 +292,7 @@ nav a:hover::after{
     margin-bottom: 30px;
 }
 #details h2{
-    color: #0e83e4;
+    color: #000;
     font-size: 1.2rem;
     padding: 20px;
     margin-top: 10px;
@@ -340,7 +340,7 @@ nav a:hover::after{
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #aed0eb;
+    background-color: #EABF9F;
     margin-left: 28px;
     color: black;
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.295);
@@ -353,7 +353,7 @@ nav a:hover::after{
   
   /* Style the back side */
 .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #B68973;
     color: white;
     transform: rotateY(180deg);
   }
@@ -371,7 +371,7 @@ nav a:hover::after{
 
 }
 #port-btn{
-    background-color: #fff;
+    background-color: #FAF3E0;
     color: grey;
     border: 0;
     margin-top: 2%;
@@ -379,7 +379,7 @@ nav a:hover::after{
     font-weight: 500;
 }
 #port-btn:focus{
-    color: #0e83e4;
+    color: #B68973;
     font-weight: 500;
     background-color: rgb(233, 230, 230);
 }
@@ -396,7 +396,7 @@ nav a:hover::after{
 }
 .pro-con{
     color: #fff;
-    background-color: #0e83e4;
+    background-color: #B68973;
     height: 52%;
     width: 90%;
     font-weight: 200;
@@ -407,7 +407,7 @@ nav a:hover::after{
 /*----footer-----*/
 
 footer{
-    background-color: #89c3f3;
+    background-color: #EABF9F;
     padding: 50px;
     font-size: 80%;
 }
